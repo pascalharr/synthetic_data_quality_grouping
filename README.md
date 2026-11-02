@@ -1,11 +1,11 @@
-# evalplat_jd340
+# synthetic_data_quality_grouping
 
 **把模型评测平台工程师·合成数据的质量分水岭归并成组并标出每组的代表项。**
 
-`evalplat_jd340` —— 按结构键把条目聚类，标出模型评测平台工程师·合成数据的质量分水岭上的同组项与各组的代表样本
+`synthetic_data_quality_grouping` —— 按结构键把条目聚类，标出模型评测平台工程师·合成数据的质量分水岭上的同组项与各组的代表样本
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`evalplat_jd340.py` 拷走就能用
+- 单文件，`synthetic_data_quality_grouping.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install pascalharr-evalplat_jd340
+pip install pascalharr-synthetic_data_quality_grouping
 ```
 
 装完直接用命令名调用：
 
 ```bash
-evalplat_jd340 --help
+synthetic_data_quality_grouping --help
 ```
 
-也可以不用安装，直接把 `evalplat_jd340.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `synthetic_data_quality_grouping.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ evalplat_jd340 --help
 ## 用法
 
 ```bash
-python evalplat_jd340.py --file input.txt
-python evalplat_jd340.py --text "示例内容"
-python evalplat_jd340.py --file input.txt --json
+python synthetic_data_quality_grouping.py --file input.txt
+python synthetic_data_quality_grouping.py --text "示例内容"
+python synthetic_data_quality_grouping.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python evalplat_jd340.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_evalplat_jd340.py
+python test_synthetic_data_quality_grouping.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_evalplat_jd340.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/pascalharr/evalplat_jd340>
+- GitHub 仓库：<https://github.com/pascalharr/synthetic_data_quality_grouping>
 
 ---
 
@@ -79,7 +79,7 @@ python test_evalplat_jd340.py
 pascalharr 做模型评测平台工程师·合成数据的质量分水岭相关的问题，方向对标阶跃星辰的负责人模型评测平台工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://pascalharr.github.io>
-- 仓库：<https://github.com/pascalharr/evalplat_jd340>
+- 仓库：<https://github.com/pascalharr/synthetic_data_quality_grouping>
 
 ## 许可
 

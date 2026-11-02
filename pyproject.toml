@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pascalharr-evalplat_jd340"
+name = "pascalharr-synthetic_data_quality_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出模型评测平台工程师·合成数据的质量分水岭上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://pascalharr.github.io"
-Repository = "https://github.com/pascalharr/evalplat_jd340"
-Issues = "https://github.com/pascalharr/evalplat_jd340/issues"
+Repository = "https://github.com/pascalharr/synthetic_data_quality_grouping"
+Issues = "https://github.com/pascalharr/synthetic_data_quality_grouping/issues"
 
 [project.scripts]
-evalplat_jd340 = "evalplat_jd340:main"
+synthetic_data_quality_grouping = "synthetic_data_quality_grouping:main"
 
 [tool.setuptools]
-py-modules = ["evalplat_jd340"]
+py-modules = ["synthetic_data_quality_grouping"]
